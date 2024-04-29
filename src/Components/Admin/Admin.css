@@ -1,0 +1,41 @@
+td, th, table
+{
+    border-width: 2px;
+}
+.table-custom img {
+    object-fit: cover;
+    height: 100px !important;
+
+    overflow-x: hidden;
+}
+.user-form button
+{
+    font-size: 14px;
+}
+#updateProductBtn{
+    display: none;
+}
+/* Media Query */
+@media only screen and (max-width: 991px) {
+    .product-form
+    {
+        margin: 20px 0px !important;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .table-responsive-sm
+    {
+        padding: 0px !important;
+    }
+    .user-form
+    {
+        margin:20px 0px !important;
+        padding:20px 10px !important;
+    }
+}
+@media only screen and (max-width: 366px) {
+    .admin button
+    {
+        font-size: 12px !important;
+    }
+}

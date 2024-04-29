@@ -1,0 +1,22 @@
+.total
+{
+    padding-top: 5px;
+    border-top: 1px solid grey;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.offcanvas-header
+{
+    color: var(--main_color) !important;
+    font-weight: 600;
+}
+.cart-product .fa-solid
+{
+    transition: all 0.2s;
+    color: var(--main_color);
+}
+.cart-product .fa-solid:hover
+{
+    transform: scale(1.1);
+}
